@@ -5,5 +5,6 @@ public class Main {
         var Hund1 = new Tier(4, "Bello", 2, true);
         Hund1.macheSound("wau wau");
         Hund1.bewegen();
+        //Hallo
     }
 }
