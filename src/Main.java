@@ -6,6 +6,6 @@ public class Main {
         Hund1.macheSound("wau wau");
         Hund1.bewegen();
         //Hallo
-        //Hallo Michi
+        //Hallo Michi / a
     }
 }
