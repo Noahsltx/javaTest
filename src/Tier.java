@@ -4,6 +4,13 @@ public class Tier {
     public int familienmitglieder;
     public boolean isMaennlich;
 
+    Tier(int pfoten, String name, int familienmitglieder, boolean isMaennlich) {
+        this.pfoten = pfoten;
+        this.name = name;
+        this.familienmitglieder = familienmitglieder;
+        this.isMaennlich = isMaennlich;
+    }
+
     public void macheSound(String sound) {
         System.out.println(sound);
     }
